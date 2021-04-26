@@ -11,6 +11,6 @@ def main():
   prod.nome = input('Inira o nome do produto: ')
   prod.preco = float(input('Insira o preço do produto: '))
   prod.preco = prod.preco + (prod.preco * 10 / 100)
-  print('Código: ',prod.codigo,'\n','Nome: ',prod.nome,'\n', F'Preço: R${prod.preco:.2f}')
+  print(F'Código: {prod.codigo}\nNome: {prod.nome}\nPreço: R${prod.preco:.2f}')
 
 main()
